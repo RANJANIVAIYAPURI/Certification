@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Playwrite+AU+TAS:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.certificate-bg{
+    background-color: #FAF9F6;
+    width: 1123px;
+    height: 794px;
+    position: relative;
+    overflow: hidden;
+}
+
+.verticle-line{
+    position: absolute;
+    background-color: #0248A3;
+    width: 60px;
+    height: 794px;
+    right: 0;
+
+}
+.bg-image{
+    position: relative;
+    margin-top: 130px;
+    margin-left: 65px;
+    height:600px;
+  
+}
+.certificate-text{
+    position: absolute;
+    top: 0%;  
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.certificate-text h1{
+    font-family: "Parisienne", cursive;
+    font-weight: 500;
+    font-size: 90px;
+    margin:0px;
+   
+}
+
+.content-grid {
+    margin-top:30px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+  
+  }
+
+.sentence{
+    font-size: 18px;
+    color: #999999;
+}
+
+.certificate-text .name{
+    font-family: "Urbanist", sans-serif;
+    font-style: normal;
+    color: #006EFF;
+    font-weight: 400;
+    font-size: 38px;
+    margin-bottom:10px;
+}
+
+.certificate-text .series{
+    font-family: "Urbanist", sans-serif;
+    font-style: normal;
+    color: #006EFF;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+ .sign-name{
+    font-family: "Urbanist", sans-serif;
+    font-style: normal;
+    color: #006EFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.logo{
+    width: 177.5px;
+    height: 202px;
+    position: absolute;
+    top:-14px;
+    left: 37px
+}
+
+.signature{
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 52.87px;
+  margin-bottom: 20px;
+
+}
+
+.foot-logo{
+    margin-left:80px;
+}
+
+.signature-container{
+    margin-left:-70px;
+}
